@@ -1,0 +1,27 @@
+.about-container {
+    height: 100%;
+    width: 1150px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 3px solid hwb(54 80% 0% / 0.938);
+    box-shadow: 0 4px 6px #dee6cb70; 
+    box-shadow: 0 4px 6px #eaf185fa;
+    padding: 22px;
+    margin-bottom: 5%;
+}
+
+.container1 {
+    margin: 0 auto;
+}
+
+.container1 h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+}
+
+.container2 h2, h3 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+}

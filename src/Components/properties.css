@@ -1,0 +1,123 @@
+.SearchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.searchBarInput{
+    border-color: #dec370;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px 0.5px #888888;
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    background-color: hsl(45, 81%, 83%);
+}
+
+.searchBarButton{
+    border-color: #dec370;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 20px 0.5px #888888;
+    margin-left: 5px;
+    background-color: hwb(37 61% 13%);
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.searchBarButton:hover{
+    background-color: hsl(33, 67%, 67%);
+}
+
+.searchBarButton:active{
+    background-color: #f0d7c7;
+}
+
+.FilterSearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2B280;
+    padding: 20px;
+    width: auto;
+}
+.select{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    background-color: #C2B280;
+}
+.locate, .property{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2B280;
+    margin:0px 10px;
+}
+
+.lopro{
+    font-size: 17px;
+    padding: 2px;
+}
+.specs{
+    background-color: #C2B280;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.prolo{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color:hsl(45, 81%, 83%)
+}
+.prolo:hover{
+    background-color: hsl(33, 54%, 75%);
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #C2B280;
+    padding: 10px 0;
+}
+.max, .min{
+    border-radius: 5px;
+    border-color: #dec370;
+    font-size: 20px;
+    font-size: 15px;
+    padding: 3px;
+    background-color: hsl(45, 81%, 83%);
+    margin:5px 0;
+}
+
+.katikati {
+    margin: 0 auto;
+    text-align: center;
+}
+.searchbutton{
+    border-color: #dec370;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 2px #888888;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: hwb(37 61% 13%);
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.searchbutton:hover{
+    background-color: hsl(33, 67%, 67%);
+}
+.searchbutton:active{
+    background-color: rgb(242, 219, 180);
+}
